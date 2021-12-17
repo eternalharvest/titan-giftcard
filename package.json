@@ -1,0 +1,30 @@
+{
+  "name": "titan-giftcard",
+  "version": "0.1.0",
+  "description": "TITAN GiftCard Market",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "netlify-lambda build src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eternalharvest/titan-giftcard.git"
+  },
+  "keywords": [
+    "NFT",
+    "Marketplace",
+    "TITAN"
+  ],
+  "author": "Takuya Sawada <takuya@tuntunkun.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/eternalharvest/titan-giftcard/issues"
+  },
+  "homepage": "https://github.com/eternalharvest/titan-giftcard#readme",
+  "devDependencies": {
+    "express": "^4.17.2",
+    "netlify-lambda": "^2.0.15",
+    "nodemon": "^2.0.15",
+    "serverless-http": "^2.7.0"
+  }
+}
